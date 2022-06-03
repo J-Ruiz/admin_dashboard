@@ -10,7 +10,7 @@
 <body>
     <div id="grid-container">
         <div id="side-navbar">
-            <div id="side-navbar-title">Dashboard</div>
+            <div id="side-navbar-title"><img class="side-navbar-image" src="images/dashboard.png"> Dashboard</div>
             <div id="menu-1">
                 <div><img class="side-navbar-image" src="images/home1.png"> Home</div>
                 <div><img class="side-navbar-image" src="images/profile.png"> Profile</div>
@@ -28,12 +28,22 @@
 
         <div id="top-navbar">
             <div id="top-navbar-flex-1">
-                <input id="searchbar" type="text" placeholder="Search...">
-                <div id="greeting">Hi There, Mr. Steve Vai</div>
+                <div id=top-navbar-search-flex-container>
+                    <img class="top-navbar-image" src="images/search.png">
+                    <input id="searchbar" type="text" placeholder="Search..."></div>
+                    
+                    <div id="greeting">
+                        <img class="top-navbar-image" id="panda-image" src="images/panda.jpeg"> 
+                        <div>Hi There,<br>Mr. Steve Vai (@Svai)</div>
+                    </div>
             </div>
            
             <div id="top-navbar-flex-2">
-                <div id="name">Steve Vai</div>
+                <div id="panda-image-2-and-name">
+                    <img class="top-navbar-image" id="panda-image-2" src="images/panda.jpeg"> 
+                    <div id="name">Steve Vai</div>
+                </div>
+                
                 <div id="button-container">
                     <button class="button-container-buttons">New</button>
                     <button class="button-container-buttons">Upload</button>

@@ -35,7 +35,7 @@
 }
 
 #side-navbar-title{
-    font-size: 30px;
+    font-size: 25px;
     flex-grow: 1;
 }
 
@@ -67,8 +67,13 @@
     flex-direction: column;
     justify-content: space-between;
     margin-left: 100px;
-    
 }
+
+#top-navbar-search-flex-container{
+    display: flex;
+    align-items: center;
+}
+
 
 #top-navbar-flex-2{
     display: flex;
@@ -77,19 +82,47 @@
 }
 
 #searchbar{
-    width: 100%;
+    width: 30vw;
+    height: 70%;
     border-radius: 12px;
 }
+
+#panda-image{
+    width: 100px;
+    height: 80px;
+    border-radius: 50px;
+    
+    
+}
 #greeting { 
-    font-size: 25px;
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    font-size:25px;
+  
+}
+
+#panda-image-2-and-name{
+    display: flex; 
+    align-items: center;
+    gap:20px;
 }
 
 #name{
     font-size: 20px;
 }
+
+#panda-image-2{
+    width: 80px;
+    height: 60px;
+    border-radius: 50px;
+    
+}
+
 #button-container{
     display:flex;
     gap: 40px;
+    margin-right: 5vw;
     
 }
 .button-container-buttons{
