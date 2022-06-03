@@ -1,3 +1,5 @@
+
+
 #grid-container{
     display: grid;
     width: 100%;
@@ -26,6 +28,10 @@
     flex-direction: column;
     justify-content: space-between;
     border-radius: 10px;
+}
+
+.side-navbar-image{
+    vertical-align: middle;
 }
 
 #side-navbar-title{
@@ -119,12 +125,13 @@
     ;
 
     grid-column-gap: 20px;
-    padding: 20px;
+    padding-right: 20px;
     border-radius: 10px;
+    
 }
 
 .cards{
-    margin: 10px;
+    margin: 20px;
     padding: 10px;
     border: black solid 1px;
     border-left: goldenrod solid 10px;
@@ -136,10 +143,12 @@
 
 #left-card-title {
     grid-area: left-card-title;
+    margin-left:20px;
 }
 
 #right-card-title{
     grid-area: right-card-title;
+    margin-left:20px;
 }
 
 #card-1{ 
@@ -183,4 +192,5 @@
 
 #card-8-title{
     grid-area: card-8-title;
+    margin-left:20px;
 }
